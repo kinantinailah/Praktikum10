@@ -20,7 +20,7 @@ public class Biokop13 {
 
       for (String[] barisPenonton : penonton) {
          
-        System.out.println("Panjang baris ke-" + i + " : " + penonton[i].length);
+        System.out.println("Jumlah penonton pada baris ini: " + barisPenonton.length);
       }
       System.out.println(penonton[0].length);
       System.out.println(penonton[1].length);
