@@ -16,9 +16,10 @@ public class Biokop13 {
       System.out.printf("%s \t %s \n", penonton[2][0], penonton[2][1]);
       System.out.printf("%s \t %s \n", penonton[3][0], penonton[3][1]);
 
-      System.out.println(penonton.length);
+      System.out.println("Penonton pada baris ke-3: ");
 
-      for (String[] barisPenonton : penonton) {
+      for (int i = 0; i < penonton[2].length; i++) {
+          System.out.println(penonton[2][i]);
          
         System.out.println("Jumlah penonton pada baris ini: " + barisPenonton.length);
       }
