@@ -18,7 +18,8 @@ public class Biokop13 {
 
       System.out.println(penonton.length);
 
-      for (int i = 0; i < penonton.length; i++) {
+      for (String[] barisPenonton : penonton) {
+         
         System.out.println("Panjang baris ke-" + i + " : " + penonton[i].length);
       }
       System.out.println(penonton[0].length);
